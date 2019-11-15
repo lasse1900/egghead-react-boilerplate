@@ -1,11 +1,25 @@
 {
   "name": "egghead-react-boilerplate",
   "version": "0.1.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "LK",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lasseboy59/egghead-react-boilerplate.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Lasseboy59/egghead-react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Lasseboy59/egghead-react-boilerplate#readme",
+  "description": "",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
 }
