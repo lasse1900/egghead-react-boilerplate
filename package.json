@@ -1,25 +1,38 @@
 {
-  "name": "egghead-react-boilerplate",
+  "name": "react-boilerplate",
   "version": "0.1.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --config webpack.config.prod.js",
+    "dev": "webpack --watch --config webpack.config.dev.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "LK",
+  "author": "",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Lasseboy59/egghead-react-boilerplate.git"
+    "url": "git+https://github.com/avanslaars/egghead-react-boilerplate.git"
   },
   "keywords": [],
   "bugs": {
-    "url": "https://github.com/Lasseboy59/egghead-react-boilerplate/issues"
+    "url": "https://github.com/avanslaars/egghead-react-boilerplate/issues"
   },
-  "homepage": "https://github.com/Lasseboy59/egghead-react-boilerplate#readme",
-  "description": "",
+  "homepage": "https://github.com/avanslaars/egghead-react-boilerplate#readme",
   "devDependencies": {
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10"
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-merge": "^4.1.4"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1"
   }
 }
